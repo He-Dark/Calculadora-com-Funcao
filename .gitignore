@@ -1,11 +1,13 @@
 # Ignora a pasta node_modules (bibliotecas instaladas)
 node_modules/
 
-# Ignora a pasta dist ou build (arquivos compilados do TypeScript)
+# Ignora a pasta dist (arquivos compilados do TypeScript)
 dist/
-build/
 
-# Arquivos de log
+# Ignora arquivos JavaScript compilados
+*.js
+
+# Ignora arquivos de log
 *.log
 
 # Arquivos de sistema (Windows/macOS)
@@ -15,11 +17,6 @@ Thumbs.db
 # Configurações de editores
 .vscode/
 .idea/
-
-# Arquivos do sistema operacional
-ehthumbs.db
-Icon?
-desktop.ini
 
 # Arquivos temporários
 *.tmp
